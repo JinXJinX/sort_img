@@ -93,6 +93,7 @@ var bubbleSort = async function () {
             }
         }
     }
+    lock = false;
     return arr;
 }
 
@@ -116,6 +117,7 @@ var insertionSort = async function () {
             }
         }
     }
+    lock = false;
     return arr;
 }
 
@@ -141,5 +143,6 @@ var selectionSort = async function () {
             await sleep(sleepTime);
         }
     }
+    lock = false;
     return arr;
 }
